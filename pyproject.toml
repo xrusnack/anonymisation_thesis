@@ -1,0 +1,22 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "Deidentification Tool"
+version = "0.1.0"
+description = "Practical part of the thesis."
+authors = ["karolina rusnackova"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9.dev0"
+pandas = "==2.0.3"
+numpy = "==1.24.3"
+clinitokenizer = "==0.0.5"
+corpy = "==0.4.1"
+pytextspan = "==0.5.7"
+pytokenizations = "==0.8.4"
+sklearn-crfsuite = "==0.3.6"
+nltk = "==3.8.1"
+
