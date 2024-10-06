@@ -1,6 +1,6 @@
 # Deidentification Tool
 
-This tool is implemented as practical part of a thesis. 
+This tool is implemented as practical part of a thesis: https://is.muni.cz/th/rf3hj/Anonymisation_of_Clinical_Notes.pdf
 
 ## Dependencies:
 The script requires Python with version 3.8.*.
